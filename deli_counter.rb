@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  return "#{name} is  #{katz_deli.index(name) + 1}"
+  return "Welcome, #{name}. You are numver #{katz_deli.index(name) + 1} in line."
 end
 
 def now_serving(katz_deli)
