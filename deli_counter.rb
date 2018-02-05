@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     line = "The line is currently: "
     katz_deli.each_with_index do |person, i|
-      "#{i + 1}. #{person}"
+      line << "#{i + 1}. #{person}"
     end
     puts line
   end
